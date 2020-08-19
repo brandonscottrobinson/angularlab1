@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+h1,
+h2,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #f857a6, #ff5858);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+input,
+button {
+  border-radius: 10px;
+  padding: 10px;
+}
+.complete {
+  border: 1px solid #ff69b4;
+  background-color: white;
+}
+.add {
+  background-color: #ff1493;
+  color: white;
+}
